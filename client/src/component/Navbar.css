@@ -1,0 +1,19 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: flex-end; /* Push content to the right */
+  align-items: center; /* Vertically center the content */
+  height: 60px; /* Adjust the height as needed */
+  padding: 0 20px; /* Add horizontal padding */
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px; /* Add space between the links */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black; /* Change the link color as needed */
+  font-weight: bold;
+}
